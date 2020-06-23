@@ -7,7 +7,6 @@ body {
 
 header {
   width: 100%;
-  height: 71px;
   background-color: #fff;
 }
 
@@ -93,7 +92,15 @@ header {
   cursor: pointer;
 }
 
-.courseBox:hover {
+.beginner:hover {
+  opacity: 0.8;
+}
+
+.intermediate:hover {
+  opacity: 0.8;
+}
+
+.advanced:hover {
   opacity: 0.8;
 }
 
@@ -155,4 +162,51 @@ footer {
   font-size: 12px;
   padding: 23px 0 52px;
   margin: 0;
+}
+
+@media (max-width: 767px) {
+  .header-in {
+    display: block;
+  }
+  .header-in div {
+    font-size: 30px;
+  }
+  .header-in li {
+    margin: 0;
+  }
+  .header-in ul {
+    padding: 0;
+  }
+  .deitoraBox {
+    display: block;
+  }
+  .section2-img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 0;
+  }
+  .deitoratxt {
+    width: 80%;
+    text-align: center;
+    text-align: left;
+    margin: 0 auto;
+    padding-bottom: 83px;
+  }
+  .courseBox {
+    display: block;
+  }
+  .courseBox p {
+    text-align: center;
+  }
+  .mail {
+    width: 80%;
+  }
+  .btn {
+    width: 80%;
+  }
+  .footertxt {
+    text-align: center;
+    font-size: 10px;
+  }
 }

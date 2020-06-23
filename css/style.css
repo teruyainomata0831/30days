@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  height: 71px;
+  background-color: #fff;
+}
+
+.header-in {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  line-height: 71px;
+  font-weight: bold;
+  color: #333;
+}
+
+.header-in ul {
+  margin: 0;
+}
+
+.header-in li {
+  list-style: none;
+  display: inline-block;
+  line-height: 71px;
+  margin-left: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.section1 {
+  width: 100%;
+  height: 403px;
+  background-image: url(../img/main-vsual-nontitle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.toptxt {
+  padding-top: 119px;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.centertxt {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.bottomtxt {
+  font-weight: bold;
+}
+
+.section2 h1 {
+  padding-top: 60px;
+}
+
+.deitoraBox {
+  display: flex;
+  justify-content: center;
+  padding-top: 45px;
+}
+
+.section2-img {
+  width: 458px;
+  height: 308px;
+  margin-right: 33px;
+  padding-bottom: 83px;
+  cursor: pointer;
+}
+
+.section2-img:hover {
+  opacity: 0.8;
+}
+
+.deitoratxt {
+  text-align: left;
+}
+
+.courseBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 48px;
+  padding-bottom: 91px;
+  cursor: pointer;
+}
+
+.courseBox:hover {
+  opacity: 0.8;
+}
+
+.courseBox p {
+  margin: 0;
+  text-align: left;
+}
+
+.intermediateBox {
+  margin: 0 40px;
+}
+
+.contactBox {
+  padding-top: 52px;
+  padding-bottom: 114px;
+}
+
+.contactBox p {
+  margin: 0;
+}
+
+input {
+  width: 40%;
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50px;
+  border: 1px solid #c0c0c0;
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 23px;
+  width: 390px;
+  height: 78px;
+  background-color: #da6b64;
+  border-radius: 5px;
+  line-height: 78px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+footer {
+  margin: 0 auto;
+  width: 80%;
+  border-top: 1px solid #c0c0c0;
+}
+
+.footertxt {
+  text-align: right;
+  font-size: 12px;
+  padding: 23px 0 52px;
+  margin: 0;
+}
